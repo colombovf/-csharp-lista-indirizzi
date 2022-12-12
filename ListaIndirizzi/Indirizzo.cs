@@ -60,7 +60,7 @@ namespace ListaIndirizzi
         //METODI
         public override string ToString()
         {
-            string obj = name + surname + street + city + province + zip;
+            string obj = name + ", " + surname + ", " + street + ", "  + city + ", " + province + ", " + zip;
             return obj;
         }
     }
